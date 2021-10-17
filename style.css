@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.maateen.me/solaiman-lipi/font.css');
 
 body
 {
@@ -94,6 +95,11 @@ body
     border-radius: 10px;
 }
 
+.tracking-text
+{
+    font-family: 'SolaimanLipi', sans-serif;
+
+}
 #contact
 {
     height: 300px;
