@@ -117,4 +117,15 @@ body
         height: 300px;
     }
 } 
+
+
+
+.card-header .fa {
+    transition: .3s transform ease-in-out;
+  }
+  .card-header .collapsed .fa {
+    transform: rotate(90deg);
+  }
+  
+
 /* background-image: linear-gradient(rgb(255, 98, 91), rgb(197, 50, 173), rgb(77, 62, 194)) */
