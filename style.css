@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Prompt&display=swap');
-@import url('http://fonts.cdnfonts.com/css/sf-pro-display');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 body
 {
-    font-family: "SF Pro Display";
+    font-family: "Roboto";
+    font-weight: 500;
 }
 
 
@@ -76,6 +75,11 @@ body
 
 .card-footer:last-child{
     border-radius: 10px;
+}
+
+.t-text{
+    font-family: "Graphik";
+    font-weight: 500;
 }
 
 .tracking-text{
