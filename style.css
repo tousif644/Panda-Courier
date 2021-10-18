@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 @import url('https://fonts.maateen.me/solaiman-lipi/font.css');
+@import url('//db.onlinewebfonts.com/c/511031ed9122c8ea1450b18b876221fe?family=SF+Pro+Rounded');
 
 body
 {
-    font-family:-apple-system;
-    
+    font-family: "SF Pro";
 }
+
 
 .nav-link{
     color: black;
