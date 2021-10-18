@@ -13,43 +13,30 @@ body
 
 }
 
-.container
-{
+.container{
     margin-bottom: 100px;
 }
-.dropdown:hover .dropdown-menu
-{
+
+.dropdown:hover .dropdown-menu{
     display: block;
 }
-.dropdown-item
-{
-    background-image: url("./logo.png");
-}
 
-/* .carousel-item
-{
-    padding: 50px 80px;
-} */
-.banner-bg
-{
+.banner-bg{
     background-color: #fecae8;
 }
 
 
-.container
-{
+.container{
     margin-bottom: 100px;
 }
 
 
-.carousel
-{
+.carousel{
     position: relative;
 }
 
 
-.buy-now-button
-{
+.buy-now-button{
     background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
     color: white;
     border-radius: 8px;
@@ -57,36 +44,31 @@ body
     border: none;
 }
 
- .cat1
-{   
+ .cat1{   
     background-image: linear-gradient(45deg,#4030FA,#4168FD);
     padding: 20px 30px;
     border-radius: 10px;
 }
 
-.cat2
-{
+.cat2{
     background-image: linear-gradient(45deg,tomato,deeppink);
     padding: 20px 30px;
     border-radius: 10px;
 }
 
-.cat1,.cat2,.cat3 h1
-{
+.cat1,.cat2,.cat3 h1{
     color: white;
 }
 
-.categories img
-{
+.categories img{
     width: 120px;
 }
-.card
-{
+.card{
     border: none;
     border-radius: 10px;
 }
-.card-footer
-{
+
+.card-footer{
     background-color: white;
     border-top:none ;
 }
@@ -95,11 +77,11 @@ body
     border-radius: 10px;
 }
 
-.tracking-text
-{
+.tracking-text{
     font-family: 'SolaimanLipi', sans-serif;
 
 }
+
 #contact
 {
     height: 300px;
@@ -107,25 +89,56 @@ body
 
 
 @media (max-width:667px) {
-    .mobile
-    {
-        padding: 10px 20px;
-        margin-top: -2%;
+    .mobile{
+        padding: 20px 30px;
+        margin-top: -1%;
     }
-    #contact
-    {
+
+    #contact{
         height: 300px;
+    }
+
+    .mobile-card{
+        margin-top: 20px;
+    }
+
+    .input-group-text{
+        
+        width: 100%;
+    }
+
+    .tracking-text{
+        margin-top: -5%;
+    }
+
+    .second-b{
+        margin-top: -8%;
+    }
+
+    .b-text{
+        margin-top: 2%;
     }
 } 
 
-
-
 .card-header .fa {
     transition: .3s transform ease-in-out;
-  }
-  .card-header .collapsed .fa {
+}
+
+.card-header .collapsed .fa {
     transform: rotate(90deg);
+}
+
+
+.card {
+    height: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    transition: .5s;
+}
+
+.card:hover {
+    transform:scale(1.1);
   }
-  
 
 /* background-image: linear-gradient(rgb(255, 98, 91), rgb(197, 50, 173), rgb(77, 62, 194)) */
