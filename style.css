@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
-@import url('https://fonts.maateen.me/solaiman-lipi/font.css');
-@import url('//db.onlinewebfonts.com/c/511031ed9122c8ea1450b18b876221fe?family=SF+Pro+Rounded');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Prompt&display=swap');
+@import url('http://fonts.cdnfonts.com/css/sf-pro-display');
+
 
 body
 {
-    font-family: "SF Pro";
+    font-family: "SF Pro Display";
 }
 
 
