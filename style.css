@@ -1,10 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
-
 body
 {
-    font-family: "Inter";
-    font-weight: 500;
+    font-family: inherit;
+    
 }
 
 .nav-link{
@@ -77,10 +74,6 @@ body
     border-radius: 10px;
 }
 
-.t-text{
-    font-family: "Graphik";
-    font-weight: 500;
-}
 
 .tracking-text{
     font-family: 'SolaimanLipi', sans-serif;
