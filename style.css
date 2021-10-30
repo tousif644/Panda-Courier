@@ -1,17 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
 
-body
-{
-    font-family: "Inter";
-    
+h1{
+    font-family:"Gugi" ;
+
 }
 
 .nav-link{
     color: black;
     font-size: 1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
+.text
+{
+    font-family: "Poppins";
+}
+
+.card-text
+{
+    font-family: "Poppins";
+}
+
+.h5-title
+{
+    font-family: "Poppins";
+    color:orange;
+}
+.ct
+{
+    font-family: "Poppins";
+}
 .container{
     margin-bottom: 100px;
 }
@@ -140,5 +159,3 @@ body
 .card:hover {
     transform:scale(1.1);
   }
-
-/* background-image: linear-gradient(rgb(255, 98, 91), rgb(197, 50, 173), rgb(77, 62, 194)) */
