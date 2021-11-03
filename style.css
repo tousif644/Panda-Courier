@@ -152,12 +152,12 @@ h2 {
 
 .login-btn1:hover
 {
-    background: #17a2b8 !important;
+    background: #33383b !important;
     color: white !important;
 }
 
 .login-btn1{
-    color: #17a2b8 !important;
+    color: #292c2f !important;
 }
 
 footer {
@@ -277,4 +277,9 @@ div.social-links {
 .logo-color
 {
     color: #990100 !important;
+}
+.picture
+{
+    height: 800px;
+    width: 1500px;
 }
