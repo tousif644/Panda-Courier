@@ -101,7 +101,6 @@ h2 {
 .mobile ,.mobile-card
 {
     font-family: "Inter";
-    font-weight: 500;
 }
 
 @media (max-width: 667px) {
