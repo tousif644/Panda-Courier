@@ -1,246 +1,185 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gugi&family=Poppins&display=swap");
 @import url("https://fonts.maateen.me/solaiman-lipi/font.css");
-:root{
-    --first-color: #5361FF;
-    --white-color: #FAFAFF;
-    --dark-color: #2A3B47;
-    --text-color: #697477;
-}
 
-:root{
-    --body-font:"Montserrat";
-    --big-font-size:6.2rem;
-    --h2-font-size:1.25rem;
-    --normal-font-size: .938rem;
-    --small-font-size: .813rem;
-
-}
-
-:root{
-    --header-height: 3rem;
-    --font-medium:500;
-}
-:root{
-    --mb-1: .5rem;
-    --mb-2: 1rem;
-    --mb-3: 1.5rem;
-    --mb-4: 2rem;
-}
-
-/* z-index */
-:root{
-    --z-fixed:100;
-
-}
 body {
-    font-family: "Inter";
-    font-weight: 500;
+  font-family: "Inter";
+  font-weight: 500;
 }
 
 h1 {
-    font-family: "Gugi", cursive;
-    font-family: "Gugi", cursive;
+  font-family: "Gugi", cursive;
+  font-family: "Gugi", cursive;
 }
 
 .text-in {
-    font-family: "Poppins";
+  font-family: "Poppins";
 }
 
 h2 {
-    font-family: "poppins";
+  font-family: "poppins";
 }
 
 .nav-link {
-    color: black;
-    font-size: 1rem;
+  color: black;
+  font-size: 1rem;
 }
 
 .container {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .dropdown:hover .dropdown-menu {
-    display: block;
+  display: block;
 }
 
 .banner-bg {
-    background-color: #fecae8;
+  background-color: #fecae8;
 }
 
 .container {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .carousel {
-    position: relative;
+  position: relative;
 }
 
 .buy-now-button {
-    background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
-    color: white;
-    border-radius: 8px;
-    padding: 9px 25px;
-    border: none;
+  background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+  color: white;
+  border-radius: 8px;
+  padding: 9px 25px;
+  border: none;
 }
 
 .cat1 {
-    background-image: linear-gradient(45deg, cyan, blue);
-    padding: 20px 30px;
-    border-radius: 10px;
+  background-image: linear-gradient(45deg, cyan, blue);
+  padding: 20px 30px;
+  border-radius: 10px;
+  font-family: "Inter";
 }
 
 .cat2 {
-    background-image: linear-gradient(45deg,deeppink,tomato);
-    padding: 20px 30px;
-    border-radius: 10px;
+  background-image: linear-gradient(45deg, deeppink, tomato);
+  padding: 20px 30px;
+  border-radius: 10px;
+  
 }
 
 .cat1,
 .cat2,
 .cat3 h1 {
-    color: white;
+  color: white;
 }
 
 .categories img {
-    width: 120px;
+  width: 120px;
 }
 
 .card {
-    border: none;
-    border-radius: 10px;
+  border: none;
+  border-radius: 10px;
 }
 
 .card-footer {
-    background-color: white;
-    border-top: none;
+  background-color: white;
+  border-top: none;
 }
 
 .card-footer:last-child {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 .tracking-text {
-    font-family: "SolaimanLipi", sans-serif;
+  font-family: "SolaimanLipi", sans-serif;
 }
 
 #contact {
-    height: 300px;
+  height: 300px;
+}
+.mobile ,.mobile-card
+{
+    font-family: "Inter";
+    font-weight: 500;
 }
 
 @media (max-width: 667px) {
-    .mobile {
-        margin-top: -1%;
-        margin-bottom: 4%;
-        font-size: 1.5rem;
-    }
-    .mobile1{
-        font-size: 0.2rem;
-    }
-    #contact {
-        height: 300px;
-    }
-    .mobile-card {
-        margin-top: 20px;
-    }
-    .input-group-text {
-        width: 100%;
-    }
-    .tracking-text {
-        margin-top: -5%;
-    }
-    .second-b {
-        margin-top: -8%;
-    }
-    .b-text {
-        margin-top: 2%;
-    }
+  .mobile {
+    margin-top: -1%;
+    margin-bottom: 4%;
+    font-size: 1.5rem;
+  }
+  .mobile-card{
+    margin-top: -1%;
+    font-size: 1.33rem;
+    margin-bottom: 5%;
 
-    .carousel-item img{
-        height: auto;
-        width: 100%;
-    }
+  }
+  #contact {
+    height: 300px;
+  }
+  .mobile-card {
+    margin-top: 20px;
+  }
+  .input-group-text {
+    width: 100%;
+  }
+  .tracking-text {
+    margin-top: -5%;
+  }
+  .second-b {
+    margin-top: -8%;
+  }
+  .b-text {
+    margin-top: 2%;
+  }
+
+  .carousel-item img {
+    height: auto;
+    width: 100%;
+  }
 }
 
 .card-header .fa {
-    transition: 0.3s transform ease-in-out;
+  transition: 0.3s transform ease-in-out;
 }
 
 .card-header .collapsed .fa {
-    transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 .card {
-    height: auto;
-    overflow: hidden;
-    border-radius: 10px;
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
-    transition: 0.5s;
+  height: auto;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
 }
 
 .card:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
-
-.login-btn:hover{
-    background: #dc3545 ;
-    color: #fff !important;
+.login-btn:hover {
+  background: #dc3545;
+  color: #fff !important;
 }
-.login-btn{
-    color: #dc3545  !important;
+.login-btn {
+  color: #dc3545 !important;
 }
 /* #17a2b8 */
 
-.login-btn1:hover
-{
-    background: #33383b !important;
-    color: white !important;
+.login-btn1:hover {
+  background: #33383b !important;
+  color: white !important;
 }
 
-.login-btn1{
-    color: #292c2f !important;
+.login-btn1 {
+  color: #292c2f !important;
 }
 
-.picture
-{
-    height: 800px;
-    width: 1500px;
-}
-
-
-.footer{
-    background-image: url(".images/cloud-dark.svg");
-    background-color: var(--dark-color);
-    width: 100%;
-    height: 100%;
-    background-repeat:no-repeat;
-}
-
-.footer_container{
-    row-gap: 2rem;
-}
-
-.footer_title{
-    font-size: var(--normal-font-size);
-    color: var(--white-color);
-    margin-bottom: var(--mb-2);
-}
-
-.footer_link{
-    padding: .25rem 0;
-
-}
-
-.footer_link:hover{
-    color: var(--first-color);
-}
-
-.footer_social{
-    font-size: 1.4rem;
-    margin-right:var(--mb-1) ;
-}
-
-.footer_social:hover{
-    color: var(--first-color);
+.picture {
+  height: 800px;
+  width: 1500px;
 }
