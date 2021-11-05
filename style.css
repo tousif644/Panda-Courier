@@ -146,6 +146,7 @@ h2 {
     transform: scale(1.05);
 }
 
+
 .login-btn:hover{
     background: #dc3545 ;
     color: #fff !important;
@@ -288,3 +289,5 @@ div.social-links {
     height: 800px;
     width: 1500px;
 }
+
+
